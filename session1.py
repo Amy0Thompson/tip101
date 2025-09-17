@@ -61,7 +61,4 @@ def get_first(lst):
     else:
         return lst[0]
 
-#test. i suck at git
-#trying again
-
-print("apple"); #test will remove later
+#TODO solve more on freetime
