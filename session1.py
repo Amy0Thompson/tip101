@@ -8,13 +8,13 @@ def todays_mood():
 todays_mood()
 
 def print_menu(menu):
-    menu = "pizza"
-    print("Lunch today is: " + menu)
+    print("Lunch today is: " + menu)  
+print_menu("pizza")
 
 def sum(a, b):
     return a + b
 sum(13, 27)
-sum(sum(13, 27), sum(13,27))
+print(sum(sum(13, 27), sum(13,27)))
 
 def product(a, b):
     return a * b
@@ -23,21 +23,13 @@ def classify_age(age):
     if age < 18:
         return "child"
     else:
-        return "adult"
-    
+        return "adult"   
 output = classify_age(18)
 print(output)
 output = classify_age(7)
 print(output)
 output = classify_age(50)
 print(output)
-
-output = classify_age(18)
-print (output)
-output = classify_age(7)
-print (output)
-output = classify_age(50)
-print (output)
 
 def what_time_is_it(hour):
     if hour == 2:
@@ -46,7 +38,6 @@ def what_time_is_it(hour):
         return "peanut butter jelly time"
     else:
         return "nap time"        
-
 time = what_time_is_it(2)
 print(time)
 time = what_time_is_it(7)
@@ -60,5 +51,12 @@ def get_first(lst):
         return "none"
     else:
         return lst[0]
+
+def get_last(lst):
+    if len(lst) == 0:
+        return "none"
+    else: return lst[len(lst)-1]
+    
+    
 
 #TODO solve more on freetime
