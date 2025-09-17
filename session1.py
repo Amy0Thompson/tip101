@@ -61,4 +61,3 @@ def get_first(lst):
     else:
         return lst[0]
 
-#test
