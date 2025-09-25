@@ -18,12 +18,11 @@ values = ['butter', 'fly', 'fish', 'corn', 'ship']
 print(create_dictionary(keys, values))
 
 def print_pair(dictionary, target):
-    for key in dictionary:
-        if key == target:
-            print("Key: " + key)
-            print("Value: " + dictionary.get(key)) 
-            return
-    print("That pair does not exist!")
+    if target in dictionary:
+            print("Key: " + target)
+            print("Value: " + dictionary.get(target)) 
+    else:
+        print("That pair does not exist!")
 dictionary = {"spongebob": "squarepants", "patrick": "star", "squidward": "tentacles"}
 print_pair(dictionary, "patrick")
 print_pair(dictionary, "plankton")
