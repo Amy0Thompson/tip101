@@ -25,3 +25,13 @@ def count_occurrences(nums):
     pass
 
 #TODO finish all of these + add & fix code from screenshot
+
+
+def contains_duplicate(nums):
+    d = {}
+    for item in nums:
+        d[item] = 0
+    for key in d: 
+        d[key] += 1
+    return d
+print(contains_duplicate([1, 2, 3, 4, 1]))

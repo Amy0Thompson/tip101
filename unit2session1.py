@@ -47,7 +47,8 @@ dictionary2 = {100:10, 200:20, 300:30, 400:40, 500:50, 600:60}
 greater_sum = keys_v_values(dictionary2)
 print(greater_sum)
 
-
+def restock_inventory(current_inventory, restock_list):
+    pass
 
 
 #TODO we worked on problems in breakout rooms. just need* to add the solutions here
