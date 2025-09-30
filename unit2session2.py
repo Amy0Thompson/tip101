@@ -24,9 +24,6 @@ print(common_list)
 def count_occurrences(nums):
     pass
 
-#TODO finish all of these + add & fix code from screenshot
-
-
 def contains_duplicate(nums):
     d = {}
     for item in nums:
@@ -35,3 +32,5 @@ def contains_duplicate(nums):
         d[key] += 1
     return d
 print(contains_duplicate([1, 2, 3, 4, 1]))
+
+#method in uploaded screenshot doesnt work as expected (more questions were done in breakout rooms)
