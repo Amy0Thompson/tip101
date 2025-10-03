@@ -1,3 +1,4 @@
+#problem set 2
 def compress_string(my_str):
     counter = 1
     returnString = ""
